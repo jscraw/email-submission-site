@@ -15,7 +15,6 @@ h1 {
 
 div {
     display: flex;
-    border: 2px solid black;
     margin: 10px;
     align-items: center;
     flex-direction: column;
