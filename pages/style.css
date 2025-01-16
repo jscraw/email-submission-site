@@ -1,4 +1,31 @@
+html{
+    display: flex;
+    flex-flow: row nowrap;  
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    margin: 0;
+    padding: 0;
+
+h1 {
+    text-align: center;
+}
+
 div {
     display: flex;
     border: 2px solid black;
+    margin: 10px;
+    align-items: center;
+    flex-direction: column;
+
+}
+    
+input {
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder {
+    text-align: center;
 }
